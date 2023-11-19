@@ -1,0 +1,17 @@
+task_id	hash	name	process	status	exit	container	cpus	time	disk	memory	rss	%cpu	%mem	vmem	peak_rss	peak_vmem	submit	start	complete	duration	realtime	rchar	wchar	read_bytes	write_bytes	workdir
+11	25/94cbf4	FILTER_READS (11)	FILTER_READS	COMPLETED	0	-	1	-	-	-	1.6 MB	55.4%	0.0%	16.3 MB	0	0	2023-11-19 21:02:33.030	2023-11-19 21:02:33.137	2023-11-19 21:02:36.545	3.5s	1.6s	0	0	0	0	/root/pipeline_test/work/25/94cbf47881c9ddb3e3d488e1d8a0b7
+2	7c/a603b4	FILTER_READS (2)	FILTER_READS	COMPLETED	0	-	1	-	-	-	1.6 MB	46.6%	0.0%	16.3 MB	0	0	2023-11-19 21:02:33.047	2023-11-19 21:02:33.139	2023-11-19 21:02:36.617	3.6s	1.7s	0	0	0	0	/root/pipeline_test/work/7c/a603b442826aa08d2e43309ee717ee
+4	a9/cba4dc	FILTER_READS (4)	FILTER_READS	COMPLETED	0	-	1	-	-	-	1.6 MB	80.6%	0.0%	16.3 MB	0	0	2023-11-19 21:02:33.084	2023-11-19 21:02:33.143	2023-11-19 21:02:36.627	3.5s	1.2s	0	0	0	0	/root/pipeline_test/work/a9/cba4dc24debaa3282c087a0cc58fa1
+1	d1/49a053	FILTER_READS (1)	FILTER_READS	ABORTED	-	-	1	-	-	-	-	-	-	-	-	-	2023-11-19 21:02:32.969	2023-11-19 21:02:33.026	-	-	-	-	-	-	-	/root/pipeline_test/work/d1/49a053617a69b92695934564907cd6
+13	cc/d809e5	FILTER_READS (13)	FILTER_READS	ABORTED	-	-	1	-	-	-	-	-	-	-	-	-	2023-11-19 21:02:33.039	2023-11-19 21:02:33.138	-	-	-	-	-	-	-	/root/pipeline_test/work/cc/d809e5fe6b4a1ddc423769d5d1190e
+3	4c/4615d5	FILTER_READS (3)	FILTER_READS	ABORTED	-	-	1	-	-	-	-	-	-	-	-	-	2023-11-19 21:02:33.056	2023-11-19 21:02:33.139	-	-	-	-	-	-	-	/root/pipeline_test/work/4c/4615d5d6dba19a0e5179f94cf4a1d6
+9	8b/efd448	FILTER_READS (9)	FILTER_READS	ABORTED	-	-	1	-	-	-	-	-	-	-	-	-	2023-11-19 21:02:33.066	2023-11-19 21:02:33.139	-	-	-	-	-	-	-	/root/pipeline_test/work/8b/efd4481e5e91df70c95647f825377b
+5	d1/fa7ff3	FILTER_READS (5)	FILTER_READS	ABORTED	-	-	1	-	-	-	-	-	-	-	-	-	2023-11-19 21:02:33.075	2023-11-19 21:02:33.143	-	-	-	-	-	-	-	/root/pipeline_test/work/d1/fa7ff37f18d68a8c062a1229093892
+6	44/9430a3	FILTER_READS (6)	FILTER_READS	ABORTED	-	-	1	-	-	-	-	-	-	-	-	-	2023-11-19 21:02:33.094	2023-11-19 21:02:33.144	-	-	-	-	-	-	-	/root/pipeline_test/work/44/9430a3a6e110f1a15c5b9ff2db80b4
+15	7e/7ad51d	FILTER_READS (15)	FILTER_READS	ABORTED	-	-	1	-	-	-	-	-	-	-	-	-	2023-11-19 21:02:33.104	2023-11-19 21:02:33.144	-	-	-	-	-	-	-	/root/pipeline_test/work/7e/7ad51dc3702810467dd65bc1327aaf
+10	64/12ebb2	FILTER_READS (10)	FILTER_READS	ABORTED	-	-	1	-	-	-	-	-	-	-	-	-	2023-11-19 21:02:33.114	2023-11-19 21:02:33.144	-	-	-	-	-	-	-	/root/pipeline_test/work/64/12ebb23ac6e801c37c1cd1f88de424
+12	c0/5327e5	FILTER_READS (12)	FILTER_READS	ABORTED	-	-	1	-	-	-	-	-	-	-	-	-	2023-11-19 21:02:33.130	2023-11-19 21:02:33.246	-	-	-	-	-	-	-	/root/pipeline_test/work/c0/5327e5ace7265a486f7f00c13194ba
+8	d1/208b4e	FILTER_READS (8)	FILTER_READS	ABORTED	-	-	1	-	-	-	-	-	-	-	-	-	2023-11-19 21:02:33.141	2023-11-19 21:02:33.247	-	-	-	-	-	-	-	/root/pipeline_test/work/d1/208b4e50f2f25d77178333b1b6a37b
+7	04/64d383	FILTER_READS (7)	FILTER_READS	ABORTED	-	-	1	-	-	-	-	-	-	-	-	-	2023-11-19 21:02:33.151	2023-11-19 21:02:33.247	-	-	-	-	-	-	-	/root/pipeline_test/work/04/64d3833dc75fe94dc1377e9882a2bf
+14	b1/a2c033	FILTER_READS (14)	FILTER_READS	ABORTED	-	-	1	-	-	-	-	-	-	-	-	-	2023-11-19 21:02:33.159	2023-11-19 21:02:33.248	-	-	-	-	-	-	-	/root/pipeline_test/work/b1/a2c0335510c923dc6bf2e3eca472b5
+16	a2/8566bd	FILTER_READS (16)	FILTER_READS	ABORTED	-	-	1	-	-	-	-	-	-	-	-	-	2023-11-19 21:02:33.168	2023-11-19 21:02:33.248	-	-	-	-	-	-	-	/root/pipeline_test/work/a2/8566bdefa223b819c5ae6ad2792194

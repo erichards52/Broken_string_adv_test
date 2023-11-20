@@ -1,5 +1,5 @@
 process COMBINE_OUTPUT {
-    publishDir "${params.outdir}/results/combined_outputs/", overwrite: 'true'
+    publishDir "${params.outdir}/combined_outputs/", overwrite: 'true'
     errorStrategy 'retry'
 
     input:
@@ -9,6 +9,6 @@ process COMBINE_OUTPUT {
     path "combined_out.txt"
 
     """
-    cat ${norm_counts} > combined_out.txt
+    cat ${norm_counts} | sort -k1 -n > combined_out.txt
     """
 }

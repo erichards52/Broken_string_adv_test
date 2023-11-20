@@ -1,5 +1,5 @@
 process COUNT_SUM_NORM {
-    publishDir "${params.outdir}/results/count_sum_norm/", overwrite: 'true'
+    publishDir "${params.outdir}/count_sum_norm/", overwrite: 'true'
     errorStrategy 'retry'
 
     input:

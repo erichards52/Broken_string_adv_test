@@ -1,5 +1,5 @@
 process INTERSECT_COUNTS {
-    publishDir "${params.outdir}/results/filtered_intersect_count_bed_files/", overwrite: 'true'
+    publishDir "${params.outdir}/filtered_intersect_count_bed_files/", overwrite: 'true'
     errorStrategy 'retry'
 
     input:

@@ -47,6 +47,6 @@ workflow {
     COUNT_SUM_NORM(ch_bed_filt_comb)
 
     // Concatenating the outputs from count_sum_norm to create a single file with normalised counts that 
-    // can be easily read into python for further analysis
+    // can be easily read into python for further analysis. Performing numerical sorting in this step so no confusion regarding sample number in analysis
     COMBINE_OUTPUT(COUNT_SUM_NORM.out.norm_counts.collect(sort:true))
 }

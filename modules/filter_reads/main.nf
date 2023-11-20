@@ -1,5 +1,5 @@
 process FILTER_READS {
-    publishDir "${params.outdir}/results/filtered_bed_files/", overwrite: 'true'
+    publishDir "${params.outdir}/filtered_bed_files/", overwrite: 'true'
     errorStrategy 'retry'
 
     input:

@@ -7,7 +7,7 @@ process INTERSECT_COUNTS {
     path bed_file_intersect
 
     output:
-    path "**", emit: filt_intersect_count_bed_files
+    path "*intersect_counts.bed", emit: filt_intersect_count_bed_files
 
     script:
     """

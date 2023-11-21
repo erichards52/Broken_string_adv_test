@@ -1,6 +1,7 @@
 process INTERSECT_COUNTS {
     publishDir "${params.outdir}/filtered_intersect_count_bed_files/", overwrite: 'true'
     errorStrategy 'retry'
+    cache 'deep'
 
     input:
     each filt_bed_file

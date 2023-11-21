@@ -1,6 +1,7 @@
 process COMBINE_OUTPUT {
     publishDir "${params.outdir}/combined_outputs/", overwrite: 'true'
     errorStrategy 'retry'
+    cache 'deep'
 
     input:
     path norm_counts

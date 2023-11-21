@@ -59,18 +59,33 @@ This pipeline performs 4 steps:
 
    Perform division (Base pair(s) overlap/total base pairs):
    Sample1: None
+
    Sample2: None
+
    Sample3: 1/3734 = 0.03%
+
    Sample4: None
+
    Sample5: None
+
    Sample6: None
+
    Sample7: None
+
    Sample8: None
+
    Sample9: 5/1826 = 0.27%
+
    Sample10: 10/2961 = 0.34%
+
    Sample11: 10/2076 = 0.48%
+
    Sample12: 5/2283 = 0.22%
+
    Sample13: 2/1629 = 0.12%
+
    Sample14: 7/3564 = 0.20%
+
    Sample15: 15/4859 = 0.31%
+   
    Sample16: 18/5347 = 0.34%

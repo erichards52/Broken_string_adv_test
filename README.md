@@ -26,7 +26,7 @@ This pipeline performs 4 steps:
    * Pipeline uses the Nextflow workflow manager. Make sure you haven't moved any of the files present in the base level directory as all are required to be present. 
    * If you wish to move the location of the break bedfiles you can do this by specifying with the ```--bed_file path/to/break/bedfiles``` or if you wish to move the location of the AsiSI site bed file, this can be done via ```--bed_file_intersect path/to/AsiSI/sites/bedfile```
 
-4. Output files as well as pipeline meta information can be found in the ```results_<$yyyy-MM-dd_HH-mm-ss>``` directory, which contains individual directories (named appopriately) containing outputs for each individual parallel process as well as a directory named ```pipeline_meta``` which contains a DAG, trace, as well as two viewable HTML reports (timeline and report)
+4. Output files as well as pipeline meta information can be found in the ```results_<$yyyy-MM-dd_HH-mm-ss>``` directory, which contains individual directories (named appopriately) containing outputs for each individual parallel process as well as a directory named ```pipeline_meta``` which contains a DAG, trace, as well as two viewable HTML reports (timeline and report). An example of results directory from the latest run of the pipeline is available within the repo (```results_2023-11-21_13-45-16```).
 
 ======================================================
 

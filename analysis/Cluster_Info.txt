@@ -1,0 +1,16 @@
+Sample 1: Cluster 2, Distance to centroid: 0.166
+Sample 2: Cluster 2, Distance to centroid: 0.166
+Sample 3: Cluster 2, Distance to centroid: 0.102
+Sample 4: Cluster 2, Distance to centroid: 0.166
+Sample 5: Cluster 2, Distance to centroid: 0.166
+Sample 6: Cluster 2, Distance to centroid: 0.166
+Sample 7: Cluster 2, Distance to centroid: 0.166
+Sample 8: Cluster 2, Distance to centroid: 0.166
+Sample 9: Cluster 1, Distance to centroid: 0.339
+Sample 10: Cluster 1, Distance to centroid: 0.300
+Sample 11: Cluster 1, Distance to centroid: 1.740
+Sample 12: Cluster 1, Distance to centroid: 0.887
+Sample 13: Cluster 2, Distance to centroid: 1.062
+Sample 14: Cluster 1, Distance to centroid: 1.113
+Sample 15: Cluster 1, Distance to centroid: 0.010
+Sample 16: Cluster 1, Distance to centroid: 0.289

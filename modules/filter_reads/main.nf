@@ -1,7 +1,6 @@
 process FILTER_READS {
-    publishDir "${params.outdir}/filtered_bed_files/", overwrite: 'true'
+    publishDir "${params.outdir}/filtered_bed_files/", overwrite: 'true', mode: 'copy'
     errorStrategy 'retry'
-    cache 'deep'
 
     input:
     path bed_file

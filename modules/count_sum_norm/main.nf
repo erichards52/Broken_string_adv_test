@@ -1,7 +1,6 @@
 process COUNT_SUM_NORM {
-    publishDir "${params.outdir}/count_sum_norm/", overwrite: 'true'
+    publishDir "${params.outdir}/count_sum_norm/", overwrite: 'true', mode: 'copy'
     errorStrategy 'retry'
-    cache 'deep'
 
     input:
     tuple path(filt_bed), path(bed)

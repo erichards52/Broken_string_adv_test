@@ -35,10 +35,42 @@ This pipeline performs 4 steps:
 ## Answers to original repo questions:
 1. Which of the samples are likely to be controls or treated?
    * Samples 1-8 are likely to be controls and samples 9,10,12,15 and 16 are likely to be the treated
+   * A KMean Clustering scatterplot can be found and viewed in the ```analysis``` directory in the repo above along with an "Elbow Method" plot along with a text file named ```Cluster_Info.txt``` which dictates which samples belong to which cluster(s) as well as their distance from the KMeans clustering centroid(s)
 
 2. Are there any you are uncertain of?
-   * I am uncertain as to whether samples 11,13 and 14 are treated or a control as they exhibit the greatest distance from the cluster's centroid
+   * I am uncertain as to whether samples 11,13 and 14 are treated or a control as they exhibit the greatest distance from the (respective) cluster's centroid
 
 3. Can you explain the samples in the uncertain group?
-   * There are a number of reasons for each sample potentially belonging to the control group or the treated group:
-      1.  
+   * There are a number of reasons for each (uncertain) sample potentially belonging to the control group or the treated group. It could be that some of the cells were treated with a greater amount of 4OHT than other samples (as might be the case with sample 11) or treated with less 4OHT than other samples (as could be the case for samples 13 and 14). Furthermore, it could be the case that one or more of the controls exhibited a naturally occurring DSB break at one or more AsiSI site(s) (as might be the case for sample 13), leading to a control seemingly belonging to the treated group. In the same vein, one of the treated samples might have exhibited a naturally occuring DSB break at one or more AsiSI site(s) (such as sample 11), leading to a treated group appearing as if it had been treated with a greater amount of 4OHT, despite this (potentially) not being the case.
+
+4. Of all the possible AsiSI sites described in the chr21_AsiSI_sites.t2t.bed file what is the maximum percentage observed in a single sample?
+   * The answer is Sample 11 with 0.48%
+   * Intermediate files used for this analysis can be found in ```/analysis```
+   * By using bedtools intersect with the ```-wo``` parameter, which gives us the total overlapping bases per defined region, and dividing the resulting sum of overlap(s) by the total number of base pairs present within each break bedfile, we can achieve this. It appears that all break bedfiles provided have the same number of features as total base pairs, but I used AWK just to be safe. I approached this by doing the following:
+
+   Bedtools intersect each breakend:
+   ```for file in $(ls *breakends*); do bedtools intersect -wo -a ${file} -b ../chr21_AsiSI_sites.t2t.bed > ${file}.overlap; done```
+
+   Sum total overlaps into individual txts:
+   ```for file in $(ls *.overlap); do cat ${file} | cut -f10 | paste -sd+ | bc > ${file}_total_overlap; done```
+
+   Get total base pairs per breakend Sample:
+   ```for file in $(ls *breakends.bed); do awk -F'\t' 'BEGIN{SUM=0}{ SUM+=$3-$2 }END{print SUM}' ${file} > ${file}_bp.txt; done```
+
+   Perform division (Base pair(s) overlap/total base pairs):
+   Sample1: None
+   Sample2: None
+   Sample3: 1/3734 = 0.03%
+   Sample4: None
+   Sample5: None
+   Sample6: None
+   Sample7: None
+   Sample8: None
+   Sample9: 5/1826 = 0.27%
+   Sample10: 10/2961 = 0.34%
+   Sample11: 10/2076 = 0.48%
+   Sample12: 5/2283 = 0.22%
+   Sample13: 2/1629 = 0.12%
+   Sample14: 7/3564 = 0.20%
+   Sample15: 15/4859 = 0.31%
+   Sample16: 18/5347 = 0.34%

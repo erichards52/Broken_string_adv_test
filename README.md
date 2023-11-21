@@ -49,8 +49,8 @@ This pipeline performs 4 steps:
 
 3. Can you explain the samples in the uncertain group?
    * There are a number of reasons for each (uncertain) sample potentially belonging to the control group or the treated group. It could be that some of the cells were treated with a greater amount of 4OHT than other samples (as might be the case with sample 11) or treated with less 4OHT than other samples (as could be the case for samples 13 and 14).
-    
-   Furthermore, it could be the case that one or more of the controls exhibited a naturally occurring DSB break at one or more AsiSI site(s) (as might be the case for sample 13), leading to a control seemingly belonging to the treated group. In the same vein, one of the treated samples might have exhibited a naturally occuring DSB break at one or more AsiSI site(s) (such as sample 11), leading to a treated group appearing as if it had been treated with a greater amount of 4OHT, despite this (potentially) not being the case.
+
+   * Furthermore, it could be the case that one or more of the controls exhibited a naturally occurring DSB break at one or more AsiSI site(s) (as might be the case for sample 13), leading to a control seemingly belonging to the treated group. In the same vein, one of the treated samples might have exhibited a naturally occuring DSB break at one or more AsiSI site(s) (such as sample 11), leading to a treated group appearing as if it had been treated with a greater amount of 4OHT, despite this (potentially) not being the case.
 
 4. Of all the possible AsiSI sites described in the chr21_AsiSI_sites.t2t.bed file what is the maximum percentage observed in a single sample?
    * The answer is Sample 11 with 0.48%

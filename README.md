@@ -13,7 +13,7 @@ This pipeline performs 4 steps:
 
 4. Collect normalised number of AsiSI breaks
 
-===============================================================================================
+======================================================
 
 ## Usage guide: 
 1. In order to run this you can use the pipeline by making sure you have all requirements (will make this/Dockerfile)
@@ -28,7 +28,7 @@ This pipeline performs 4 steps:
 
 4. Output files as well as pipeline meta information can be found in the ```results_<$yyyy-MM-dd_HH-mm-ss>``` directory, which contains individual directories (named appopriately) containing outputs for each individual parallel process as well as a directory named ```pipeline_meta``` which contains a DAG, trace, as well as two viewable HTML reports (timeline and report)
 
-===============================================================================================
+======================================================
 
 ## N.B./Additional Info
 * (Python) Scripts used within processes can be found in the ```/bin``` directory
@@ -37,7 +37,7 @@ This pipeline performs 4 steps:
 
 * Whilst timing decorators are not found within the pipeline inside individual processes, the trace files as well as HTMLs produced via Nextflow can be used to view an extensive number of traits from each parallel process' undertaken by the pipeline during each run
 
-===============================================================================================
+======================================================
 
 ## Answers to original repo questions:
 1. Which of the samples are likely to be controls or treated?

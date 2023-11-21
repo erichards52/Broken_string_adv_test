@@ -41,7 +41,7 @@ This pipeline performs 4 steps:
 
 ## Answers to original repo questions:
 1. Which of the samples are likely to be controls or treated?
-   * Samples 1-8 are likely to be controls and samples 9,10,12,15 and 16 are likely to be the treated
+   * Samples 1-8 are likely to be controls and samples 9-12,15 and 16 are likely to be the treated
    * A KMean Clustering scatterplot can be found and viewed in the ```analysis``` directory in the repo above along with an "Elbow Method" plot along with a text file named ```Cluster_Info.txt``` which dictates which samples belong to which cluster(s) as well as their distance from the KMeans clustering centroid(s)
 
 2. Are there any you are uncertain of?

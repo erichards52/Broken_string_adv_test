@@ -45,7 +45,7 @@ This pipeline performs 4 steps:
    * A KMean Clustering scatterplot can be found and viewed in the ```analysis``` directory in the repo above along with an "Elbow Method" plot along with a text file named ```Cluster_Info.txt``` which dictates which samples belong to which cluster(s) as well as their distance from the KMeans clustering centroid(s)
 
 2. Are there any you are uncertain of?
-   * I am uncertain as to whether samples 13 and 14 are treated or a control as they exhibit the an abnormal distance from the (respective) cluster's centroid and their placing is somewhat ambiguous
+   * I am uncertain as to whether samples 13 and 14 are treated or a control as they exhibit the an abnormal distance from their (respective) cluster's centroid and their placing is somewhat ambiguous
 
 3. Can you explain the samples in the uncertain group?
    * There are a number of reasons for each (uncertain) sample potentially belonging to the control group or the treated group. It could be that some of the cells were treated with a greater amount of 4OHT than other samples (as might be the case with sample 11) or treated with less 4OHT than other samples (as could be the case for samples 13 and 14).

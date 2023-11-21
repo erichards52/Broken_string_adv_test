@@ -16,7 +16,21 @@ This pipeline performs 4 steps:
 ======================================================
 
 ## Usage guide: 
-1. In order to run this you can use the pipeline by making sure you have all requirements (will make this/Dockerfile)
+1. In order to use this pipeline you can use the Dockerfile (easier method) found within the repo (explained below) or make sure you fulfill the following requirements:
+   * Python3 
+   * build-essential 
+   * curl 
+   * unzip 
+   * groff 
+   * less 
+   * coreutils
+   * openjdk-11-jre-headless
+   * openjdk-17-jre
+   * bedtools
+   * git
+   * nextflow
+   * scikit-learn
+   * pandas
 
 2. Clone the repository ```git clone https://github.com/erichards52/Broken_string_adv_test.git```
 

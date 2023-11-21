@@ -1,6 +1,6 @@
 # Advanced Coding Test: Broken String Biosciences
 ======
-## H2 Pipeline explanation:
+## Pipeline explanation:
 This pipeline performs 4 steps:
 1. Filters the provided break bedfiles located in /data/breaks/*.bed for a mapQ of >= 30
 2. Intersects each sample break bedfile with the AsiSI site bed file
@@ -9,7 +9,7 @@ This pipeline performs 4 steps:
    * Normalise the number of breaks per sample (Sum of breaks/(Total Breaks/1000))
 4. Collect normalised number of AsiSI breaks
 
-## H2 Usage guide: 
+## Usage guide: 
 1. In order to run this you can use the pipeline by making sure you have all requirements (will make this/Dockerfile)
 1. Clone the repository ```git clone https://github.com/erichards52/Broken_string_adv_test.git```
 2. Pipeline uses the Nextflow workflow manager. Make sure you haven't moved any of the files present in the base level directory as all are required to be present. 

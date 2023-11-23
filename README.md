@@ -49,7 +49,7 @@ This pipeline performs 4 steps:
 
 * All analysis was done from within the ```/analysis``` directory (```analysis_script.py```) after having copied the final output of the pipeline (```combined_out.txt```) into the ```/analysis``` directory
 
-* Whilst timing decorators are not found within the pipeline inside individual processes, the trace files as well as HTMLs produced via Nextflow can be used to view an extensive number of traits from each parallel process' undertaken by the pipeline during each run
+* Whilst timing decorators are not found within the pipeline inside individual processes, the trace files as well as HTMLs produced via Nextflow can be used to view an extensive number of traits from each parallel process undertaken by the pipeline during each run
 
 ======================================================
 
